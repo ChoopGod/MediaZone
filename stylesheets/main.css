@@ -2,12 +2,12 @@
   position: fixed;
   top: 0.5%;
   left: 30vw;
-  width: 40vw;
-  height: 20vh;
+  height: 15vh;
 }
 
-#notifikationBell {
-  font-size: 150%;
-  width: 20%;
+#notificationBell {
+  font-size: 250%;
+  position: fixed;
+  right: 10%;
 }
 /*# sourceMappingURL=main.css.map */
