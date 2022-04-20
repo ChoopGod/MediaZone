@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+.headerLogo {
+  position: fixed;
+  top: 0.5%;
+  left: 30vw;
+  height: 15vh;
+}
+
+#notificationBell {
+  font-size: 250%;
+  position: fixed;
+  right: 10%;
+}
+/*# sourceMappingURL=main.css.map */
