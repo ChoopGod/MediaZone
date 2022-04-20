@@ -10,16 +10,16 @@ $orange: #d0ba27;
 $white: #efefef;
 
 
-
+header{
+    width: 100%;
+    display: flex;
+}
 .headerLogo{
-    position: fixed;
-    top: 0.5%;
-    left: 30vw;
+margin-left: 30vw;
     height: 15vh;
 }
 #notificationBell{
     font-size: 250%;
-    position: fixed;
-    right: 10%;
+    margin-left: 7vw;
     
 }
