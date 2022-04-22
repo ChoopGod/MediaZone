@@ -15,4 +15,15 @@ header {
   margin-left: 7vw;
 }
 
-/*# sourceMappingURL=main.css.map */
+.socialeAkt .fredagsbarText {
+  margin-left: 30vw;
+}
+
+.socialeAkt .sesVi {
+  margin-top: 20vw;
+  font-size: 10vw;
+}
+
+.socialeAkt .picture {
+  max-width: 100%;
+}
