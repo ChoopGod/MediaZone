@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+html {
+  background-color: #3A3A3C;
+}
+
 header {
   width: 100%;
   display: -webkit-box;
@@ -14,8 +19,9 @@ header {
 #notificationBell {
   font-size: 250%;
   margin-left: 7vw;
+  color: #ffffff;
+  border-color: #707070;
 }
-
 
 .sectionBtn {
   width: 100%;
@@ -25,10 +31,10 @@ header {
 
 .btnOne {
   font-size: 250%;
-  background-color: #2e3d7f;
-  color: #efefef;
+  background-color: #F2F2F7;
+  color: black;
   text-decoration: none;
-  font-family: arial;
+  font-family: Lato;
   margin-left: 25vw;
   padding: 10px;
   padding-left: 10vw;
@@ -38,14 +44,27 @@ header {
 
 .btnTwo {
   font-size: 250%;
-  background-color: #2e3d7f;
-  color: #efefef;
+  background-color: #F2F2F7;
+  color: black;
   text-decoration: none;
-  font-family: arial;
+  font-family: Lato;
   margin-left: 25vw;
   padding: 10px;
   padding-left: 10vw;
   padding-right: 10vw;
   border-radius: 10px;
+}
+
+.btnTwo .socialeAkt .fredagsbarText {
+  margin-left: 30vw;
+}
+
+.btnTwo .socialeAkt .sesVi {
+  margin-top: 20vw;
+  font-size: 10vw;
+}
+
+.btnTwo .socialeAkt .picture {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
