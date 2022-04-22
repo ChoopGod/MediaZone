@@ -1,14 +1,20 @@
-$globalFont: arial;
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+$globalFont: Lato;
 $globalSubfont: arial;
 
-$colorBtn: #efefef;
-$bg-colorBtn: #efefef;
+$colorBtn: black;
+$bg-colorBtn:  #F2F2F7;
 
 $blue: #2e3d7f;
 $red: #d02e27;
 $orange: #d0ba27;
 $white: #efefef;
+$bg-color: #3A3A3C;
 
+html{
+    background-color: $bg-color;
+}
 
 header{
     width: 100%;
@@ -22,6 +28,8 @@ margin-left: 30vw;
 #notificationBell{
     font-size: 250%;
     margin-left: 7vw;
+    color: #ffffff;
+    border-color: #707070;
     
 }
 .sectionBtn{
@@ -31,8 +39,8 @@ margin-left: 30vw;
 }
 .btnOne{
     font-size: 250%;
-    background-color: #2e3d7f;
-    color: #efefef;
+    background-color: $bg-colorBtn;
+    color: $colorBtn;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
@@ -44,8 +52,8 @@ margin-left: 30vw;
 }
 .btnTwo{
     font-size: 250%;
-    background-color: #2e3d7f;
-    color: #efefef;
+    background-color: $bg-colorBtn;
+    color: $colorBtn;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
@@ -66,5 +74,6 @@ margin-left: 30vw;
 }
 .picture {
     max-width: 100%;
+}
 }
 }
