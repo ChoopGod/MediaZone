@@ -1,12 +1,13 @@
 .menu-item, .menu-open-button {
   background: gray;
   border-radius: 100%;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   margin-left: -40px;
   position: absolute;
   top: 20px;
   color: white;
+  border: lightgrey 4px solid;
   text-align: center;
   line-height: 80px;
   -webkit-transform: translate3d(0, 0, 0);
@@ -142,70 +143,70 @@
 .menu-open:checked ~ .menu-item:nth-child(3) {
   -webkit-transition-duration: 180ms;
           transition-duration: 180ms;
-  -webkit-transform: translate3d(-72.74407px, -52.9934px, 0);
-          transform: translate3d(-72.74407px, -52.9934px, 0);
+  -webkit-transform: translate3d(-56.57872px, -41.21709px, 0);
+          transform: translate3d(-56.57872px, -41.21709px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(4) {
   -webkit-transition-duration: 280ms;
           transition-duration: 280ms;
-  -webkit-transform: translate3d(-3.06774px, -89.9477px, 0);
-          transform: translate3d(-3.06774px, -89.9477px, 0);
+  -webkit-transform: translate3d(-2.38602px, -69.95932px, 0);
+          transform: translate3d(-2.38602px, -69.95932px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(5) {
   -webkit-transition-duration: 380ms;
           transition-duration: 380ms;
-  -webkit-transform: translate3d(68.96447px, -57.82648px, 0);
-          transform: translate3d(68.96447px, -57.82648px, 0);
+  -webkit-transform: translate3d(53.63903px, -44.97615px, 0);
+          transform: translate3d(53.63903px, -44.97615px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(6) {
   -webkit-transition-duration: 480ms;
           transition-duration: 480ms;
-  -webkit-transform: translate3d(88.03527px, 18.7027px, 0);
-          transform: translate3d(88.03527px, 18.7027px, 0);
+  -webkit-transform: translate3d(68.47188px, 14.54655px, 0);
+          transform: translate3d(68.47188px, 14.54655px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(7) {
   -webkit-transition-duration: 580ms;
           transition-duration: 580ms;
-  -webkit-transform: translate3d(39.4992px, 80.86911px, 0);
-          transform: translate3d(39.4992px, 80.86911px, 0);
+  -webkit-transform: translate3d(30.7216px, 62.8982px, 0);
+          transform: translate3d(30.7216px, 62.8982px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(8) {
   -webkit-transition-duration: 680ms;
           transition-duration: 680ms;
-  -webkit-transform: translate3d(-39.37036px, 80.93192px, 0);
-          transform: translate3d(-39.37036px, 80.93192px, 0);
+  -webkit-transform: translate3d(-30.62139px, 62.94705px, 0);
+          transform: translate3d(-30.62139px, 62.94705px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(9) {
   -webkit-transition-duration: 780ms;
           transition-duration: 780ms;
-  -webkit-transform: translate3d(-88.00537px, 18.84289px, 0);
-          transform: translate3d(-88.00537px, 18.84289px, 0);
+  -webkit-transform: translate3d(-68.44862px, 14.65558px, 0);
+          transform: translate3d(-68.44862px, 14.65558px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(10) {
   -webkit-transition-duration: 880ms;
           transition-duration: 880ms;
-  -webkit-transform: translate3d(-69.05648px, -57.71657px, 0);
-          transform: translate3d(-69.05648px, -57.71657px, 0);
+  -webkit-transform: translate3d(-53.7106px, -44.89067px, 0);
+          transform: translate3d(-53.7106px, -44.89067px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(11) {
   -webkit-transition-duration: 980ms;
           transition-duration: 980ms;
-  -webkit-transform: translate3d(2.92453px, -89.95246px, 0);
-          transform: translate3d(2.92453px, -89.95246px, 0);
+  -webkit-transform: translate3d(2.27464px, -69.96303px, 0);
+          transform: translate3d(2.27464px, -69.96303px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(12) {
   -webkit-transition-duration: 1080ms;
           transition-duration: 1080ms;
-  -webkit-transform: translate3d(72.66225px, -53.10853px, 0);
-          transform: translate3d(72.66225px, -53.10853px, 0);
+  -webkit-transform: translate3d(56.51508px, -41.30663px, 0);
+          transform: translate3d(56.51508px, -41.30663px, 0);
 }
 /*# sourceMappingURL=knap.css.map */
