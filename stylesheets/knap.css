@@ -1,5 +1,5 @@
 .menu-item, .menu-open-button {
-  background: darkgreen;
+  background: gray;
   border-radius: 100%;
   width: 80px;
   height: 80px;
@@ -52,7 +52,7 @@
 }
 
 .menu-item:hover {
-  background: green;
+  background: gray;
 }
 
 .menu-item:nth-child(3) {
@@ -208,4 +208,4 @@
   -webkit-transform: translate3d(72.66225px, -53.10853px, 0);
           transform: translate3d(72.66225px, -53.10853px, 0);
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=knap.css.map */
