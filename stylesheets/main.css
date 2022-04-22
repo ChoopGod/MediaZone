@@ -3,6 +3,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 10vh;
 }
 
 .headerLogo {
@@ -13,5 +14,38 @@ header {
 #notificationBell {
   font-size: 250%;
   margin-left: 7vw;
+}
+
+
+.sectionBtn {
+  width: 100%;
+  height: auto;
+  margin-top: 5vh;
+}
+
+.btnOne {
+  font-size: 250%;
+  background-color: #2e3d7f;
+  color: #efefef;
+  text-decoration: none;
+  font-family: arial;
+  margin-left: 25vw;
+  padding: 10px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10px;
+}
+
+.btnTwo {
+  font-size: 250%;
+  background-color: #2e3d7f;
+  color: #efefef;
+  text-decoration: none;
+  font-family: arial;
+  margin-left: 25vw;
+  padding: 10px;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */
