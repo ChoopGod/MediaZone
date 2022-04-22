@@ -16,7 +16,6 @@ header {
   margin-left: 7vw;
 }
 
-
 .sectionBtn {
   width: 100%;
   height: auto;
@@ -47,5 +46,18 @@ header {
   padding-left: 10vw;
   padding-right: 10vw;
   border-radius: 10px;
+}
+
+.btnTwo .socialeAkt .fredagsbarText {
+  margin-left: 30vw;
+}
+
+.btnTwo .socialeAkt .sesVi {
+  margin-top: 20vw;
+  font-size: 10vw;
+}
+
+.btnTwo .socialeAkt .picture {
+  max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
