@@ -1,0 +1,16 @@
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerLogo {
+  margin-left: 30vw;
+  height: 15vh;
+}
+
+#notificationBell {
+  font-size: 150%;
+  margin-left: 7vw;
+}
