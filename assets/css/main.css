@@ -1,0 +1,29 @@
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerLogo {
+  margin-left: 30vw;
+  height: 15vh;
+}
+
+#notificationBell {
+  font-size: 250%;
+  margin-left: 7vw;
+}
+
+.socialeAkt .fredagsbarText {
+  margin-left: 30vw;
+}
+
+.socialeAkt .sesVi {
+  margin-top: 20vw;
+  font-size: 10vw;
+}
+
+.socialeAkt .picture {
+  max-width: 100%;
+}
