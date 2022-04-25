@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 html {
   background-color: #3A3A3C;
-  font-family: Lato;
   color: #efefef;
+  font-family: Lato;
 }
 
 header {
@@ -14,13 +14,13 @@ header {
 }
 
 .headerLogo {
-  margin-left: 30vw;
-  height: 15vh;
+  margin-left: 26vw;
+  height: 16vh;
 }
 
 #notificationBell {
   font-size: 250%;
-  margin-left: 7vw;
+  margin-left: 15vw;
   color: #ffffff;
   border-color: #707070;
 }
@@ -38,10 +38,10 @@ header {
   text-decoration: none;
   font-family: Lato;
   margin-left: 25vw;
-  padding: 10px;
+  padding: 3vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  border-radius: 30px;
+  border-radius: 10vh;
 }
 
 .btnTwo {
@@ -51,10 +51,10 @@ header {
   text-decoration: none;
   font-family: Lato;
   margin-left: 25vw;
-  padding: 10px;
+  padding: 3vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  border-radius: 30px;
+  border-radius: 10vh;
 }
 
 .fredagsbarTitle {
@@ -74,6 +74,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   margin: 0;
+  padding: 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -81,16 +82,14 @@ header {
 
 .fredagbarSection p {
   margin: 0;
+  padding: 0;
   font-size: 31px;
 }
 
 .mainSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
+  font-size: 31px;
+  margin-top: 0;
 }
 
 .mainSection p {
@@ -100,5 +99,32 @@ header {
 .dividerDiv {
   background-color: #DE2627;
   height: 0.5vh;
+}
+
+.tilmeldSection a {
+  text-decoration: none;
+  color: #efefef;
+  text-align: center;
+}
+
+.tilmeldSection a p {
+  background-color: #2e3d7f;
+  font-size: 40px;
+  border-radius: 2vh;
+  width: 55%;
+  padding: 1vh;
+  margin-left: 20vw;
+}
+
+.socialeAkt h1 {
+  margin: 0;
+}
+
+.socialeAkt h2 {
+  margin: 0;
+}
+
+.socialeAkt p {
+  margin: 0;
 }
 /*# sourceMappingURL=main.css.map */

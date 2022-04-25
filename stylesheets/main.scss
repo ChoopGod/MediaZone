@@ -18,8 +18,8 @@ $bg-color: #3A3A3C;
 
 html{
     background-color: $bg-color;
-    font-family: $globalFont;
     color: $white;
+    font-family: $globalFont;
 }
 
 header{
@@ -28,12 +28,12 @@ header{
     margin-bottom: 10vh;
 }
 .headerLogo{
-margin-left: 30vw;
-    height: 15vh;
+margin-left: 26vw;
+    height: 16vh;
 }
 #notificationBell{
     font-size: 250%;
-    margin-left: 7vw;
+    margin-left: 15vw;
     color: #ffffff;
     border-color: #707070;
     
@@ -50,10 +50,10 @@ margin-left: 30vw;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
-    padding: 10px;
+    padding: 3vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    border-radius: 30px;
+    border-radius: 10vh;
 
 }
 .btnTwo{
@@ -63,10 +63,10 @@ margin-left: 30vw;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
-    padding: 10px;
+    padding: 3vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    border-radius: 30px;
+    border-radius: 10vh;
 }
 .fredagsbarTitle{
     text-align: center;
@@ -82,16 +82,20 @@ margin-left: 30vw;
 .fredagbarSection{
     display: flex;
     margin: 0;
+    padding: 0;
     justify-content: center;
     p{
         margin: 0;
+        padding: 0;
         font-size: 31px;
     }
 
 }
 .mainSection{
-    display: flex;
-    justify-content: center;
+    
+text-align: center;
+font-size: 31px;
+margin-top: 0;
     p{
         margin-left: 5px;
         
@@ -101,6 +105,31 @@ margin-left: 30vw;
     background-color: #DE2627;
     height: 0.5vh;
 }
-.socialeAkt{
+.tilmeldSection{
+    a{
+        text-decoration: none;
+        color: $white;
+        text-align: center;
+        
+        p{
+            background-color: $blue;
+            font-size: 40px;
+            border-radius: 2vh;
+            width: 55%;
+            padding: 1vh;
+            margin-left: 20vw;
 
+        }
+    }
+}
+.socialeAkt{
+    h1{
+        margin: 0;
+    }
+    h2{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
 }
