@@ -68,3 +68,36 @@ header {
   max-width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
+
+#menuCard {
+  background-color: #484242;
+  width: 90%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  border-radius: 2vw;
+}
+
+#menuCard div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#menuCard div h2 {
+  color: #efefef;
+  text-align: center;
+  background-color: #2e3d7f;
+  padding: 5vw;
+  border-radius: 2vw;
+  min-width: 70%;
+  margin: 3vw;
+}

@@ -7,8 +7,9 @@ $bg-colorBtn:  #111111;
 
 $colorCards: black;
 $bg-colorCards:  white;
+$bg-colorCards2:  #484242;
 
-$blue: #2e3d7f;
+$blue: #273C92;
 $red: #d02e27;
 $orange: #d0ba27;
 $white: #efefef;
@@ -78,4 +79,30 @@ margin-left: 30vw;
     max-width: 100%;
 }
 }
+}
+
+// MENU
+#menuCard{
+    background: $bg-colorCards2;
+    width: 90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 2vw;
+
+    div{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        h2{
+            color: $white;
+            text-align: center;
+            background-color: #2e3d7f;
+            padding: 5vw;
+            border-radius: 2vw;
+            min-width: 70%;
+            margin: 3vw;
+        }
+    }
 }
