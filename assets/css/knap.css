@@ -132,10 +132,6 @@
           transform: scale(0.8, 0.8) translate3d(0, 0, 0);
 }
 
-.menu {
-  margin: 200px 0 0 0;
-}
-
 .menu-open:checked ~ .menu-item {
   -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
           transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
