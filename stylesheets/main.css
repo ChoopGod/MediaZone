@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 html {
   background-color: #3A3A3C;
 }
@@ -34,7 +34,7 @@ header {
   background-color: #F2F2F7;
   color: black;
   text-decoration: none;
-  font-family: Lato;
+  font-family: lato;
   margin-left: 25vw;
   padding: 10px;
   padding-left: 10vw;
@@ -47,7 +47,7 @@ header {
   background-color: #F2F2F7;
   color: black;
   text-decoration: none;
-  font-family: Lato;
+  font-family: lato;
   margin-left: 25vw;
   padding: 10px;
   padding-left: 10vw;
