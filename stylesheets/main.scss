@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 $globalFont: Lato;
 $globalSubfont: arial;
 
 $colorBtn: black;
-$bg-colorBtn:  #F2F2F7;
+$bg-colorBtn:  #111111;
+
+$colorCards: black;
+$bg-colorCards:  white;
 
 $blue: #2e3d7f;
 $red: #d02e27;
@@ -39,7 +41,7 @@ margin-left: 30vw;
 }
 .btnOne{
     font-size: 250%;
-    background-color: $bg-colorBtn;
+    background-color: $bg-colorCards;
     color: $colorBtn;
     text-decoration: none;
     font-family: $globalFont;
@@ -52,7 +54,7 @@ margin-left: 30vw;
 }
 .btnTwo{
     font-size: 250%;
-    background-color: $bg-colorBtn;
+    background-color: $bg-colorCards;
     color: $colorBtn;
     text-decoration: none;
     font-family: $globalFont;
