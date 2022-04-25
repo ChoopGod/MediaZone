@@ -8,6 +8,8 @@ $bg-colorBtn:  #111111;
 $colorCards: black;
 $bg-colorCards:  white;
 
+$main-page-text: white;
+
 $blue: #2e3d7f;
 $red: #d02e27;
 $orange: #d0ba27;
@@ -16,6 +18,8 @@ $bg-color: #3A3A3C;
 
 html{
     background-color: $bg-color;
+    font-family: $globalFont;
+    color: $white;
 }
 
 header{
@@ -63,19 +67,39 @@ margin-left: 30vw;
     padding-left: 10vw;
     padding-right: 10vw;
     border-radius: 30px;
+}
+.fredagsbarTitle{
+    text-align: center;
+    color: $white;
+    font-size: 40px;
+}
+.fredagsbarText{
+    text-align: center;
+    color: $white;
+    font-size: 31px;
+}
+.fredagbarSection{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    p{
+        margin: 0;
+        font-size: 31px;
+    }
 
-
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+    p{
+        margin-left: 5px;
+        
+    }
+}
+.dividerDiv{
+    background-color: #DE2627;
+    height: 0.5vh;
+}
 .socialeAkt{
 
-.fredagsbarText{
-    margin-left: 30vw;
-}
-.sesVi{
-    margin-top: 20vw;
-    font-size: 10vw;
-}
-.picture {
-    max-width: 100%;
-}
-}
 }
