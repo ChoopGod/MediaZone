@@ -58,11 +58,13 @@
 
 $pi:3.14;
 //vars
-$baggrund: #111111;
-$baggrundHover: #111111;
+$baggrund:gray;
+$baggrundHover:gray;
+$bordercolor:lightgrey;
+
 //config
 $menu-items:9+1;
-$open-distance:90px;
+$open-distance:70px;
 $opening-angle:$pi*2.6;
 
 %goo{
@@ -73,12 +75,13 @@ $opening-angle:$pi*2.6;
 %ball{
   background: $baggrund;
   border-radius:100%;
-  width:80px;
-  height:80px;
+  width:60px;
+  height:60px;
   margin-left:-40px;
   position:absolute;
   top:20px;
   color:white;
+  border: $bordercolor 4px solid;
   text-align:center;
   line-height:80px;
   transform:translate3d(0,0,0);
