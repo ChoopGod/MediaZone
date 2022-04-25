@@ -2,11 +2,11 @@
 $globalFont: Lato;
 $globalSubfont: arial;
 
-$colorBtn: black;
+$colorBtn: #efefef;
 $bg-colorBtn:  #111111;
 
-$colorCards: black;
-$bg-colorCards:  white;
+$colorCards: #efefef;
+$bg-colorCards: #2e3d7f;
 
 $blue: #2e3d7f;
 $red: #d02e27;
@@ -46,10 +46,10 @@ margin-left: 30vw;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
-    padding: 10px;
+    padding: 3vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    border-radius: 30px;
+    border-radius: 10vh;
 
 }
 .btnTwo{
@@ -59,10 +59,10 @@ margin-left: 30vw;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
-    padding: 10px;
+    padding: 3vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    border-radius: 30px;
+    border-radius: 10vh;
 
 
 .socialeAkt{

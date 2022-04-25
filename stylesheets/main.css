@@ -31,28 +31,28 @@ header {
 
 .btnOne {
   font-size: 250%;
-  background-color: white;
-  color: black;
+  background-color: #2e3d7f;
+  color: #efefef;
   text-decoration: none;
-  font-family: lato;
+  font-family: Lato;
   margin-left: 25vw;
-  padding: 10px;
+  padding: 3vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  border-radius: 30px;
+  border-radius: 10vh;
 }
 
 .btnTwo {
   font-size: 250%;
-  background-color: white;
-  color: black;
+  background-color: #2e3d7f;
+  color: #efefef;
   text-decoration: none;
-  font-family: lato;
+  font-family: Lato;
   margin-left: 25vw;
-  padding: 10px;
+  padding: 3vh;
   padding-left: 10vw;
   padding-right: 10vw;
-  border-radius: 30px;
+  border-radius: 10vh;
 }
 
 .btnTwo .socialeAkt .fredagsbarText {
