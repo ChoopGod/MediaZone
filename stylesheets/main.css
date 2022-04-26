@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 html {
   background-color: #3A3A3C;
@@ -67,4 +69,50 @@ header {
 .btnTwo .socialeAkt .picture {
   max-width: 100%;
 }
+.all{
+  align-content: center;
+  margin: 5em;
+  width: 700px;
+}
+hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+.underholding_titel{
+  color: gainsboro;
+  text-align: center;
+
+}
+.single-player{
+  color: gainsboro;
+  text-align: left;
+  
+}
+.multi-player{
+  color: gainsboro;;
+  text-align: left;
+  
+}
+.grid-container {
+ 
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-left: 2em ;
+  margin-top: 1em;
+}
+
+.grid-item {
+  width: 40%;
+  border-radius: 25%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 /*# sourceMappingURL=main.css.map */
