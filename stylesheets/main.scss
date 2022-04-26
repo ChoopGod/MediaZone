@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 $globalFont: Lato;
 $globalSubfont: arial;
 
@@ -27,8 +28,8 @@ header{
     margin-bottom: 10vh;
 }
 .headerLogo{
-margin-left: 26vw;
-    height: 16vh;
+margin-left: 13vw;
+    height: 26vh;
 }
 #notificationBell{
     font-size: 250%;
@@ -67,6 +68,32 @@ margin-left: 26vw;
     padding-right: 10vw;
     border-radius: 10vh;
 
+}
+.elevraadSection{
+    background-color: rgba(112, 110, 110, 0.184) ;
+    margin: 10vw;
+    padding: 0.5vw;
+}
+.elevraadArticle{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 1vh;
+    background-color: $blue;
+    padding: 2vw;
+    margin: 2vh;
+    p{
+        font-size: 28px;
+        font-family: 'Lato', sans-serif;
+        padding: 0.5vh;
+        margin: 0;
+        margin-left: 7vw;
+    }
+    img{
+        height: 5vh;
+        vertical-align: middle;
+        border-radius: 10vh;
+
+    }
 }
 .fredagsbarTitle{
     text-align: center;

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 html {
   background-color: #3A3A3C;
   color: #efefef;
@@ -14,8 +15,8 @@ header {
 }
 
 .headerLogo {
-  margin-left: 26vw;
-  height: 16vh;
+  margin-left: 13vw;
+  height: 26vh;
 }
 
 #notificationBell {
@@ -54,6 +55,37 @@ header {
   padding: 3vh;
   padding-left: 10vw;
   padding-right: 10vw;
+  border-radius: 10vh;
+}
+
+.elevraadSection {
+  background-color: rgba(112, 110, 110, 0.184);
+  margin: 10vw;
+  padding: 0.5vw;
+}
+
+.elevraadArticle {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  border-radius: 1vh;
+  background-color: #273C92;
+  padding: 2vw;
+  margin: 2vh;
+}
+
+.elevraadArticle p {
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  padding: 0.5vh;
+  margin: 0;
+  margin-left: 7vw;
+}
+
+.elevraadArticle img {
+  height: 5vh;
+  vertical-align: middle;
   border-radius: 10vh;
 }
 
