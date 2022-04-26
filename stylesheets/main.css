@@ -5,8 +5,6 @@ html {
 
 header {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 10vh;
 }
@@ -55,16 +53,61 @@ header {
   border-radius: 10vh;
 }
 
-.btnTwo .socialeAkt .fredagsbarText {
+.sectionGuide {
+  width: 100%;
+  height: auto;
+  margin-top: 5vh;
+  font-style: italic;
+}
+
+.guideOne {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  background-color: #2e3d7f;
+  color: #efefef;
+  text-decoration: none;
+  font-family: Lato;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 1vh;
+  padding-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
+}
+
+.guideTwo {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  background-color: #2e3d7f;
+  color: #efefef;
+  text-decoration: none;
+  font-family: Lato;
+  margin-top: 5vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 1vh;
+  padding-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
+}
+
+.sectionGuide p {
+  font-size: 25px;
+}
+
+.socialeAkt .fredagsbarText {
   margin-left: 30vw;
 }
 
-.btnTwo .socialeAkt .sesVi {
+.socialeAkt .sesVi {
   margin-top: 20vw;
   font-size: 10vw;
 }
 
-.btnTwo .socialeAkt .picture {
+.socialeAkt .picture {
   max-width: 100%;
 }
-/*# sourceMappingURL=main.css.map */
