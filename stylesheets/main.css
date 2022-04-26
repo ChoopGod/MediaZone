@@ -14,13 +14,13 @@ header {
 }
 
 .headerLogo {
-  margin-left: 28vw;
+  margin-left: 26vw;
   height: 16vh;
 }
 
 #notificationBell {
   font-size: 250%;
-  margin-left: 16vw;
+  margin-left: 15vw;
   color: #ffffff;
   border-color: #707070;
 }
@@ -32,29 +32,29 @@ header {
 }
 
 .btnOne {
-  font-size: 200%;
-  background-color: #2e3d7f;
+  font-size: 250%;
+  background-color: white;
   color: #efefef;
   text-decoration: none;
   font-family: Lato;
-  margin-left: 28vw;
+  margin-left: 25vw;
   padding: 3vh;
-  padding-left: 12vw;
-  padding-right: 12vw;
-  border-radius: 12vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
 }
 
 .btnTwo {
-  font-size: 200%;
-  background-color: #2e3d7f;
+  font-size: 250%;
+  background-color: white;
   color: #efefef;
   text-decoration: none;
   font-family: Lato;
-  margin-left: 28vw;
+  margin-left: 25vw;
   padding: 3vh;
-  padding-left: 12vw;
-  padding-right: 12vw;
-  border-radius: 12vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
 }
 
 .fredagsbarTitle {
@@ -126,24 +126,12 @@ header {
 }
 
 .tilmeldSection a p {
-  background-color: #2e3d7f;
+  background-color: #273C92;
   font-size: 40px;
   border-radius: 2vh;
   width: 60%;
   padding: 1vh;
   margin-left: 17vw;
-}
-
-.socialeAkt h1 {
-  margin: 0;
-}
-
-.socialeAkt h2 {
-  margin: 0;
-}
-
-.socialeAkt p {
-  margin: 0;
 }
 
 .all {
@@ -222,10 +210,67 @@ hr.roundedTwo {
   height: auto;
   margin-top: 3vh;
 }
-/*# sourceMappingURL=main.css.map */
+
+.sectionGuide {
+  width: 100%;
+  height: auto;
+  margin-top: 5vh;
+  font-style: italic;
+}
+
+.guideOne {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  color: #efefef;
+  text-decoration: none;
+  font-family: Lato;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 1vh;
+  padding-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
+}
+
+.guideTwo {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  background-color: white;
+  color: #efefef;
+  text-decoration: none;
+  font-family: Lato;
+  margin-top: 5vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding: 1vh;
+  padding-top: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  border-radius: 10vh;
+}
+
+.sectionGuide p {
+  font-size: 25px;
+}
+
+.socialeAkt h1 {
+  margin: 0;
+}
+
+.socialeAkt h2 {
+  margin: 0;
+}
+
+.socialeAkt p {
+  margin: 0;
+}
 
 #menuCard {
-  background-color: #484242;
+  background: #484242;
   width: 90%;
   margin-left: 5vw;
   margin-right: 5vw;
@@ -256,3 +301,4 @@ hr.roundedTwo {
   min-width: 70%;
   margin: 3vw;
 }
+/*# sourceMappingURL=main.css.map */

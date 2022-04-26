@@ -198,6 +198,51 @@ hr.roundedTwo {
 	margin-top: 3vh;
 }
 
+.sectionGuide{
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    font-style: italic;
+
+}
+.guideOne{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    background-color: $bg-colorCards;
+    color: $colorBtn;
+    text-decoration: none;
+    font-family: $globalFont;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 1vh;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 10vh;    
+
+}
+.guideTwo{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    background-color: $bg-colorCards;
+    color: $colorBtn;
+    text-decoration: none;
+    font-family: $globalFont;
+    margin-top: 5vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 1vh;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    border-radius: 10vh;
+
+}
+.sectionGuide p{
+    font-size: 25px;
+}
 .socialeAkt{
     h1{
         margin: 0;
