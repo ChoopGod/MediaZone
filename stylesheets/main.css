@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 html {
   background-color: #3A3A3C;
+  color: #efefef;
   font-family: Lato;
 }
 
@@ -13,13 +14,13 @@ header {
 }
 
 .headerLogo {
-  margin-left: 26vw;
+  margin-left: 28vw;
   height: 16vh;
 }
 
 #notificationBell {
   font-size: 250%;
-  margin-left: 15vw;
+  margin-left: 16vw;
   color: #ffffff;
   border-color: #707070;
 }
@@ -31,42 +32,118 @@ header {
 }
 
 .btnOne {
-  font-size: 250%;
+  font-size: 200%;
   background-color: #2e3d7f;
   color: #efefef;
   text-decoration: none;
   font-family: Lato;
-  margin-left: 25vw;
+  margin-left: 28vw;
   padding: 3vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  border-radius: 10vh;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  border-radius: 12vh;
 }
 
 .btnTwo {
-  font-size: 250%;
+  font-size: 200%;
   background-color: #2e3d7f;
   color: #efefef;
   text-decoration: none;
   font-family: Lato;
-  margin-left: 25vw;
+  margin-left: 28vw;
   padding: 3vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  border-radius: 10vh;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  border-radius: 12vh;
 }
 
-.btnTwo .socialeAkt .fredagsbarText {
-  margin-left: 30vw;
+.fredagsbarTitle {
+  text-align: center;
+  color: #efefef;
+  font-size: 40px;
+  padding-bottom: 1vh;
 }
 
-.btnTwo .socialeAkt .sesVi {
-  margin-top: 20vw;
-  font-size: 10vw;
+.fredagsbarText {
+  text-align: center;
+  color: #efefef;
+  font-size: 31px;
+  padding-top: 1vh;
+  font-style: italic;
 }
 
-.btnTwo .socialeAkt .picture {
-  max-width: 100%;
+.fredagbarSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fredagbarSection p {
+  margin: 0;
+  padding: 0;
+  font-size: 31px;
+}
+
+#fa-ellipsis {
+  margin-top: 3vh;
+  font-size: 31px;
+  margin-left: 45vw;
+}
+
+.mainSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 31px;
+  margin-top: 0;
+}
+
+.mainSection .socialArtOne {
+  margin-right: 3vw;
+}
+
+.dividerDiv {
+  background-color: #DE2627;
+  height: 0.5vh;
+}
+
+.tilmeldSection {
+  margin-top: 3vh;
+}
+
+.tilmeldSection a {
+  text-decoration: none;
+  color: #efefef;
+  text-align: center;
+}
+
+.tilmeldSection a p {
+  background-color: #2e3d7f;
+  font-size: 40px;
+  border-radius: 2vh;
+  width: 60%;
+  padding: 1vh;
+  margin-left: 17vw;
+}
+
+.socialeAkt h1 {
+  margin: 0;
+}
+
+.socialeAkt h2 {
+  margin: 0;
+}
+
+.socialeAkt p {
+  margin: 0;
 }
 
 .all {
