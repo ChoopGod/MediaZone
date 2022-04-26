@@ -8,6 +8,8 @@ $bg-colorBtn:  #111111;
 $colorCards: #efefef;
 $bg-colorCards: #2e3d7f;
 
+$main-page-text: white;
+
 $blue: #2e3d7f;
 $red: #d02e27;
 $orange: #d0ba27;
@@ -16,6 +18,8 @@ $bg-color: #3A3A3C;
 
 html{
     background-color: $bg-color;
+    color: $white;
+    font-family: $globalFont;
 }
 
 header{
@@ -64,18 +68,80 @@ margin-left: 26vw;
     padding-right: 10vw;
     border-radius: 10vh;
 
-
-.socialeAkt{
-
+}
+.fredagsbarTitle{
+    text-align: center;
+    color: $white;
+    font-size: 40px;
+    padding-bottom: 1vh;
+    
+}
 .fredagsbarText{
-    margin-left: 30vw;
+    text-align: center;
+    color: $white;
+    font-size: 31px;
+    padding-top: 1vh;
+    font-style: italic;
 }
-.sesVi{
-    margin-top: 20vw;
-    font-size: 10vw;
+
+
+.fredagbarSection{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    p{
+        margin: 0;
+        padding: 0;
+        font-size: 31px;
+    }
+
 }
-.picture {
-    max-width: 100%;
+#fa-ellipsis{
+    margin-top: 3vh;
+    font-size: 31px;
+    margin-left: 45vw;
+    }
+.mainSection{
+    
+display: flex;
+justify-content: center;
+font-size: 31px;
+margin-top: 0;
+.socialArtOne{
+    margin-right: 3vw;
+}    
 }
+.dividerDiv{
+    background-color: #DE2627;
+    height: 0.5vh;
 }
+.tilmeldSection{
+    margin-top: 3vh;
+    a{
+        text-decoration: none;
+        color: $white;
+        text-align: center;
+        
+        p{
+            background-color: $blue;
+            font-size: 40px;
+            border-radius: 2vh;
+            width: 60%;
+            padding: 1vh;
+            margin-left: 17vw;
+
+        }
+    }
+}
+.socialeAkt{
+    h1{
+        margin: 0;
+    }
+    h2{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
 }

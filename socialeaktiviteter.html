@@ -4,16 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="./stylesheets/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./stylesheets/knap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />            
+    <link rel="stylesheet" href="./stylesheets/knap.css"/>
     <title>Sociale aktiviteter</title>
 </head>
 <body>
-    <main class="socialeAkt">
-        <h1 class="fredagsbarText">Fredagsbar<br>29/04</h1>
-        <p class="sesVi">Ses vi?</p>
-        <img class="picture" src="" alt="Picture to akt">
-    </main>
+    <header>
+        <a href="./"><img class="headerLogo" src="./assets/logo.png" alt="logo"></a>
+    </header>  
+     
+    <body>
+
+        <main class="socialeAkt">
+<h1 class="fredagsbarTitle">SocialHUB</h1>
+<div class="dividerDiv"></div>
+<h2 class="fredagsbarText">Kommende events</h2>
+<section class="fredagbarSection">
+<p class="fa fa-caret-down"></p>
+</section>
+
+<section class="mainSection">
+    <article class="socialArtOne">
+        <p>Fredagbar</p>
+        <p>IT Dayz</p>
+    </article>
+    <article class="socialArtTwo">
+    <p>29.04</p>
+    <p>04.05</p> 
+    </article>
+
+
+    
+</section>
+<p id="fa-ellipsis" class="fa-solid fa-ellipsis"></p>
+<div class="dividerDiv"></div>
+<section class="tilmeldSection">
+<a href="#"> <p>TILMELD DIG!</p></a>
+</section>
+
+        </main>
+
+    <!--KNAP-->
+    <div class="menu">
+        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+        <label class="menu-open-button" for="menu-open">
+        </label>
+        
+        <a href="#" class="menu-item"> <img class="menu-item-logo" src="./assets/BUS.png"/> </a>
+        <a href="#" class="menu-item"> <img class="menu-item-logo" src="./assets/cutlery.png"/> </a>
+        <a href="#" class="menu-item"> <img class="menu-item-logo" src="./assets/FRIENDSHIP.png"/> </a>
+        
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+        <filter id="shadowed-goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+            <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+            <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+            <feComposite in2="shadow" in="goo" result="goo" />
+            <feComposite in2="goo" in="SourceGraphic" result="mix" />
+        </filter>
+        <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+            <feComposite in2="goo" in="SourceGraphic" result="mix" />
+        </filter>
+        </defs>
+    </svg>
 </body>
 </html>
