@@ -12,13 +12,13 @@ header {
 }
 
 .headerLogo {
-  margin-left: 26vw;
+  margin-left: 28vw;
   height: 16vh;
 }
 
 #notificationBell {
   font-size: 250%;
-  margin-left: 15vw;
+  margin-left: 16vw;
   color: #ffffff;
   border-color: #707070;
 }
@@ -30,29 +30,29 @@ header {
 }
 
 .btnOne {
-  font-size: 250%;
+  font-size: 200%;
   background-color: #2e3d7f;
   color: #efefef;
   text-decoration: none;
   font-family: Lato;
-  margin-left: 25vw;
+  margin-left: 28vw;
   padding: 3vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  border-radius: 10vh;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  border-radius: 12vh;
 }
 
 .btnTwo {
-  font-size: 250%;
+  font-size: 200%;
   background-color: #2e3d7f;
   color: #efefef;
   text-decoration: none;
   font-family: Lato;
-  margin-left: 25vw;
+  margin-left: 28vw;
   padding: 3vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
-  border-radius: 10vh;
+  padding-left: 12vw;
+  padding-right: 12vw;
+  border-radius: 12vh;
 }
 
 .btnTwo .socialeAkt .fredagsbarText {
