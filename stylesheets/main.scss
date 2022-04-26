@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 $globalFont: Lato;
 $globalSubfont: arial;
 
@@ -82,7 +83,7 @@ margin-left: 13vw;
     margin: 2vh;
     p{
         font-size: 28px;
-        
+        font-family: 'Lato', sans-serif;
         padding: 0.5vh;
         margin: 0;
         margin-left: 7vw;
