@@ -61,12 +61,15 @@ header {
   text-align: center;
   color: #efefef;
   font-size: 40px;
+  padding-bottom: 1vh;
 }
 
 .fredagsbarText {
   text-align: center;
   color: #efefef;
   font-size: 31px;
+  padding-top: 1vh;
+  font-style: italic;
 }
 
 .fredagbarSection {
@@ -86,19 +89,34 @@ header {
   font-size: 31px;
 }
 
+#fa-ellipsis {
+  margin-top: 3vh;
+  font-size: 31px;
+  margin-left: 45vw;
+}
+
 .mainSection {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 31px;
   margin-top: 0;
 }
 
-.mainSection p {
-  margin-left: 5px;
+.mainSection .socialArtOne {
+  margin-right: 3vw;
 }
 
 .dividerDiv {
   background-color: #DE2627;
   height: 0.5vh;
+}
+
+.tilmeldSection {
+  margin-top: 3vh;
 }
 
 .tilmeldSection a {
@@ -111,9 +129,9 @@ header {
   background-color: #2e3d7f;
   font-size: 40px;
   border-radius: 2vh;
-  width: 55%;
+  width: 60%;
   padding: 1vh;
-  margin-left: 20vw;
+  margin-left: 17vw;
 }
 
 .socialeAkt h1 {
