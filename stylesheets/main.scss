@@ -16,6 +16,7 @@ $bg-color: #3A3A3C;
 
 html{
     background-color: $bg-color;
+    font-family: Lato;
 }
 
 header{
@@ -78,4 +79,67 @@ margin-left: 26vw;
     max-width: 100%;
 }
 }
+}
+.all {
+	align-content: center;
+	margin: 10vw;
+}
+hr.roundedOne {
+	height: 0.1vh;
+	width: 60%;
+	background-color: #ddd;
+	margin-top: 0;
+	margin-bottom: 5vh;
+}
+hr.roundedTwo {
+	height: 0.1vh;
+	background-color: #ddd;
+}
+.gridImg {
+	background-color: white;
+	border-radius: 3vw;
+	padding: 1vw;
+}
+.underholding_titel {
+	color: gainsboro;
+	text-align: center;
+	font-size: 20px;
+}
+.single-player {
+	color: gainsboro;
+	text-align: left;
+	font-size: 10px;
+    font-weight: 100;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	figcaption {
+		color: gainsboro;
+		text-align: left;
+		font-size: 20px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+.multi-player {
+	color: gainsboro;
+	text-align: left;
+	font-size: 10px;
+	margin-top: 5vh;
+    figcaption {
+		color: gainsboro;
+		text-align: left;
+		font-size: 20px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 11vw;
+}
+.grid-item {
+	width: auto;
+	height: auto;
+	margin-top: 3vh;
 }
