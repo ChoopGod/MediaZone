@@ -2,11 +2,11 @@
 $globalFont: Lato;
 $globalSubfont: arial;
 
-$colorBtn: black;
+$colorBtn: #efefef;
 $bg-colorBtn:  #111111;
 
-$colorCards: black;
-$bg-colorCards:  white;
+$colorCards: #efefef;
+$bg-colorCards: #2e3d7f;
 
 $main-page-text: white;
 
@@ -67,6 +67,7 @@ margin-left: 26vw;
     padding-left: 10vw;
     padding-right: 10vw;
     border-radius: 10vh;
+
 }
 .fredagsbarTitle{
     text-align: center;
@@ -82,6 +83,7 @@ margin-left: 26vw;
     padding-top: 1vh;
     font-style: italic;
 }
+
 
 .fredagbarSection{
     display: flex;
