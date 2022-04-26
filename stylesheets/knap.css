@@ -5,7 +5,7 @@
   height: 60px;
   margin-left: -40px;
   position: absolute;
-  top: 20px;
+  top: 100px;
   color: white;
   border: lightgrey 4px solid;
   text-align: center;
@@ -50,6 +50,7 @@
           box-sizing: border-box;
   font-size: 20px;
   text-align: left;
+  margin-top: 0;
 }
 
 .menu-item:hover {
