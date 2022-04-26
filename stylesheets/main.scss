@@ -2,7 +2,7 @@
 $globalFont: Lato;
 $globalSubfont: arial;
 
-$colorBtn: black;
+$colorBtn: #efefef;
 $bg-colorBtn:  #111111;
 
 $colorCards: black;
@@ -17,6 +17,8 @@ $bg-color: #3A3A3C;
 
 html{
     background-color: $bg-color;
+    color: $white;
+    font-family: $globalFont;
 }
 
 header{
@@ -25,12 +27,12 @@ header{
     margin-bottom: 10vh;
 }
 .headerLogo{
-margin-left: 30vw;
-    height: 15vh;
+margin-left: 26vw;
+    height: 16vh;
 }
 #notificationBell{
     font-size: 250%;
-    margin-left: 7vw;
+    margin-left: 15vw;
     color: #ffffff;
     border-color: #707070;
     
@@ -47,10 +49,10 @@ margin-left: 30vw;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
-    padding: 10px;
+    padding: 3vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    border-radius: 30px;
+    border-radius: 10vh;
 
 }
 .btnTwo{
@@ -60,26 +62,154 @@ margin-left: 30vw;
     text-decoration: none;
     font-family: $globalFont;
     margin-left: 25vw;
-    padding: 10px;
+    padding: 3vh;
     padding-left: 10vw;
     padding-right: 10vw;
-    border-radius: 30px;
+    border-radius: 10vh;
 
+}
+.fredagsbarTitle{
+    text-align: center;
+    color: $white;
+    font-size: 40px;
+    padding-bottom: 1vh;
+    
+}
+.fredagsbarText{
+    text-align: center;
+    color: $white;
+    font-size: 31px;
+    padding-top: 1vh;
+    font-style: italic;
+}
+
+
+.fredagbarSection{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    p{
+        margin: 0;
+        padding: 0;
+        font-size: 31px;
+    }
+
+}
+#fa-ellipsis{
+    margin-top: 3vh;
+    font-size: 31px;
+    margin-left: 45vw;
+    }
+.mainSection{
+    
+display: flex;
+justify-content: center;
+font-size: 31px;
+margin-top: 0;
+.socialArtOne{
+    margin-right: 3vw;
+}    
+}
+.dividerDiv{
+    background-color: #DE2627;
+    height: 0.5vh;
+}
+.tilmeldSection{
+    margin-top: 3vh;
+    a{
+        text-decoration: none;
+        color: $white;
+        text-align: center;
+        
+        p{
+            background-color: $blue;
+            font-size: 40px;
+            border-radius: 2vh;
+            width: 60%;
+            padding: 1vh;
+            margin-left: 17vw;
+
+        }
+    }
+}
+
+.all {
+	align-content: center;
+	margin: 10vw;
+}
+hr.roundedOne {
+	height: 0.1vh;
+	width: 60%;
+	background-color: #ddd;
+	margin-top: 0;
+	margin-bottom: 5vh;
+}
+hr.roundedTwo {
+	height: 0.1vh;
+	background-color: #ddd;
+}
+.gridImg {
+	background-color: white;
+	border-radius: 3vw;
+	padding: 1vw;
+}
+.underholding_titel {
+	color: gainsboro;
+	text-align: center;
+	font-size: 20px;
+}
+.single-player {
+	color: gainsboro;
+	text-align: left;
+	font-size: 10px;
+    font-weight: 100;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	figcaption {
+		color: gainsboro;
+		text-align: left;
+		font-size: 20px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+.multi-player {
+	color: gainsboro;
+	text-align: left;
+	font-size: 10px;
+	margin-top: 5vh;
+    figcaption {
+		color: gainsboro;
+		text-align: left;
+		font-size: 20px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 11vw;
+}
+.grid-item {
+	width: auto;
+	height: auto;
+	margin-top: 3vh;
+}
 
 .socialeAkt{
+    h1{
+        margin: 0;
+    }
+    h2{
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+}
 
-.fredagsbarText{
-    margin-left: 30vw;
-}
-.sesVi{
-    margin-top: 20vw;
-    font-size: 10vw;
-}
-.picture {
-    max-width: 100%;
-}
-}
-}
 
 // MENU
 #menuCard{
