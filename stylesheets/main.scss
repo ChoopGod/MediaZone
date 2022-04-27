@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
 $globalFont: Lato;
 $globalSubfont: arial;
 
@@ -69,32 +70,64 @@ margin-left: 13vw;
     border-radius: 10vh;
 
 }
-.elevraadSection{
-    background-color: rgba(112, 110, 110, 0.184) ;
-    margin: 10vw;
-    padding: 0.5vw;
+.grayDividerElevraad{
+    height: 0.1vh;
+    background-color: gray;
+    width: 25%;
+    margin-left: 22vw;
+    margin-bottom: 5vh;
 }
-.elevraadArticle{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    border-radius: 1vh;
-    background-color: $blue;
-    padding: 2vw;
-    margin: 2vh;
-    p{
-        font-size: 28px;
-        font-family: 'Lato', sans-serif;
-        padding: 0.5vh;
-        margin: 0;
-        margin-left: 7vw;
-    }
-    img{
-        height: 5vh;
-        vertical-align: middle;
-        border-radius: 10vh;
+h1{
+    text-align: center;
 
-    }
 }
+.elevraadSection{
+        margin: 20vw;
+        
+
+        h2{
+            text-align: left;
+            margin: 0;
+            padding-bottom:0.5vh;
+            font-weight: 300;
+            font-family: 'Lato', sans-serif;
+
+        }
+        p{
+            font-size: 28px;
+            margin: 0;
+            padding: 0;
+            margin-left: 25vw;
+        }
+        .blueDividerElevraad{
+            height: 0.1vh;
+            background-color: $blue;
+
+        }
+        .infoSectionElevraad{
+            display: grid;
+            grid-template-columns: 100%;
+            article{
+                div{
+                    h3{
+                      margin: 0;
+                      padding-top: 1vh;  
+                      padding-bottom: 1vh;
+                       
+                        
+                    }
+                    p{
+                        font-size: 15px;
+                        overflow-wrap: break-word;
+                        color: $white;
+                        font-style: italic;
+                        margin: 0;
+                        margin-bottom: 2vh;
+                    }
+                }
+            }
+        }
+    }
 .fredagsbarTitle{
     text-align: center;
     color: $white;

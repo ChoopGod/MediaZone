@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
 html {
   background-color: #3A3A3C;
   color: #efefef;
@@ -58,35 +59,62 @@ header {
   border-radius: 10vh;
 }
 
-.elevraadSection {
-  background-color: rgba(112, 110, 110, 0.184);
-  margin: 10vw;
-  padding: 0.5vw;
+.grayDividerElevraad {
+  height: 0.1vh;
+  background-color: gray;
+  width: 25%;
+  margin-left: 22vw;
+  margin-bottom: 5vh;
 }
 
-.elevraadArticle {
+h1 {
+  text-align: center;
+}
+
+.elevraadSection {
+  margin: 20vw;
+}
+
+.elevraadSection h2 {
+  text-align: left;
+  margin: 0;
+  padding-bottom: 0.5vh;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+.elevraadSection p {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  margin-left: 25vw;
+}
+
+.elevraadSection .blueDividerElevraad {
+  height: 0.1vh;
+  background-color: #273C92;
+}
+
+.elevraadSection .infoSectionElevraad {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-  border-radius: 1vh;
-  background-color: #273C92;
-  padding: 2vw;
-  margin: 2vh;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
 }
 
-.elevraadArticle p {
-  font-size: 28px;
-  font-family: 'Lato', sans-serif;
-  padding: 0.5vh;
+.elevraadSection .infoSectionElevraad article div h3 {
   margin: 0;
-  margin-left: 7vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
-.elevraadArticle img {
-  height: 5vh;
-  vertical-align: middle;
-  border-radius: 10vh;
+.elevraadSection .infoSectionElevraad article div p {
+  font-size: 15px;
+  overflow-wrap: break-word;
+  color: #efefef;
+  font-style: italic;
+  margin: 0;
+  margin-bottom: 2vh;
 }
 
 .fredagsbarTitle {
